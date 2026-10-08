@@ -1,0 +1,13 @@
+.env*
+*.key
+*.pem
+*token*
+*api-key*
+*.log
+logs/
+__pycache__/
+.pytest_cache/
+.venv/
+job-packets/
+n8n-data.tar.gz
+COCO-STATE.md

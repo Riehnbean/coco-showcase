@@ -1,0 +1,22 @@
+[
+  {
+    "file": "discover-models.py",
+    "source": "discover-models.py",
+    "change": "Removed workstation-specific schedule path; core logic preserved."
+  },
+  {
+    "file": "evaluate-models.py",
+    "source": "evaluate-models.py",
+    "change": "Removed workstation-specific schedule path; core logic preserved."
+  },
+  {
+    "file": "promote-models.py",
+    "source": "promote-models.py",
+    "change": "Removed workstation-specific schedule path; core logic preserved."
+  },
+  {
+    "file": "router.js",
+    "source": "Keyword Router code node only",
+    "change": "Removed market/XRPL branches. No credentials, workflow metadata or other nodes copied."
+  }
+]

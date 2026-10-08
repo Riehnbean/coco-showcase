@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "last_full_refresh": null,
+  "route_assignments_current": {
+    "code": {
+      "primary": "example/code-primary"
+    },
+    "reason": {
+      "primary": "example/reason-primary"
+    }
+  },
+  "models": [
+    {
+      "model_id": "example/code-primary",
+      "provider": "example",
+      "display_name": "example/code-primary",
+      "capabilities": [
+        "code"
+      ],
+      "quality_score_by_capability": {
+        "code": 70
+      },
+      "reliability_score": 95,
+      "current_status": "active",
+      "notes": "Synthetic demo values; not measured provider performance."
+    },
+    {
+      "model_id": "example/code-candidate",
+      "provider": "example",
+      "display_name": "example/code-candidate",
+      "capabilities": [
+        "code"
+      ],
+      "quality_score_by_capability": {
+        "code": 80
+      },
+      "reliability_score": 92,
+      "current_status": "active",
+      "notes": "Synthetic demo values; not measured provider performance."
+    },
+    {
+      "model_id": "example/reason-primary",
+      "provider": "example",
+      "display_name": "example/reason-primary",
+      "capabilities": [
+        "reason"
+      ],
+      "quality_score_by_capability": {
+        "reason": 75
+      },
+      "reliability_score": 95,
+      "current_status": "active",
+      "notes": "Synthetic demo values; not measured provider performance."
+    },
+    {
+      "model_id": "example/unreliable",
+      "provider": "example",
+      "display_name": "example/unreliable",
+      "capabilities": [
+        "code"
+      ],
+      "quality_score_by_capability": {
+        "code": 99
+      },
+      "reliability_score": 10,
+      "current_status": "active",
+      "notes": "Synthetic demo values; not measured provider performance."
+    }
+  ]
+}
